@@ -1,0 +1,16 @@
+[Unit]
+Description=Cleveland Bot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+Environment=PYTHONUNBUFFERED=1
+User=
+WorkingDirectory=
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
